@@ -8,7 +8,7 @@ const Menu = styled.ul`
   max-height: 0;
   transition: max-height 0.2s ease-out;
 
-  @media (min-width: ${breakpoints.small}) {
+  @media (min-width: ${breakpoints.xl}) {
     clear: none;
     float: right;
     max-height: none;

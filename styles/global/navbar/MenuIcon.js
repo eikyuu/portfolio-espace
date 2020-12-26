@@ -6,12 +6,11 @@ import colors from "../../helpers/colors";
 const MenuIcon = styled.label`
   cursor: pointer;
   display: inline-block;
-  float: right;
   padding: 28px 20px;
   position: relative;
   user-select: none;
   .navicon {
-    background: #333;
+    background: white;
     display: block;
     height: 2px;
     position: relative;
@@ -27,7 +26,7 @@ const MenuIcon = styled.label`
   }
   .navicon:before,
   .navicon:after {
-    background: #333;
+    background: white;
     content: "";
     display: block;
     height: 100%;
@@ -36,7 +35,7 @@ const MenuIcon = styled.label`
     width: 100%;
   }
 
-  @media (min-width: ${breakpoints.small}) {
+  @media (min-width: ${breakpoints.xlarge}) {
     display: none;
   }
 `;

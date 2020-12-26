@@ -1,6 +1,5 @@
 import React from "react";
 import Header from "../../styles/global/navbar/Header";
-import Logo from "../../styles/global/navbar/Logo";
 import Menu from "../../styles/global/navbar/Menu";
 import MenuBtn from "../../styles/global/navbar/MenuBtn";
 import MenuIcon from "../../styles/global/navbar/MenuIcon";
@@ -8,9 +7,6 @@ import MenuIcon from "../../styles/global/navbar/MenuIcon";
 const navbar = (props) => {
   return (
     <Header>
-      <Logo href="" className="logo">
-        Navbar
-      </Logo>
       <MenuBtn className="menu-btn" type="checkbox" id="menu-btn" />
       <MenuIcon className="menu-icon" htmlFor="menu-btn">
         <span className="navicon"></span>

@@ -54,7 +54,7 @@ const GlobalStyles = createGlobalStyle`
 	  margin: 0;
 	}
 	
-/*	body {
+	body {
 	  line-height: 1;
 	}*/
 	
@@ -75,21 +75,6 @@ const GlobalStyles = createGlobalStyle`
 	table {
 	  border-collapse: collapse;
 	  border-spacing: 0;
-	}
-	
-	main {
-	  margin: 0 auto;
-	  position: relative;
-	}
-	
-	.info_top {
-		position: relative;
-		background-color: #000000;
-		text-align: center;
-		padding: 1rem 0;
-		p {
-			color: #FFFFFF;
-		}
 	}
 `;
 
