@@ -1,16 +1,19 @@
 import React from "react";
 import Head from "next/head";
 
+import SectionHome from "../styles/pages/home/SectionHome";
+
 const Home = () => {
+
   return (
     <React.Fragment>
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h1>
-        Welcome to <a href="https://nextjs.org">Next.js!</a>
-      </h1>
+      <SectionHome>
+
+      </SectionHome>
     </React.Fragment>
   );
 };

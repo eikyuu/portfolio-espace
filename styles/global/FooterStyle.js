@@ -7,7 +7,6 @@ const FooterStyle = styled.footer`
   width: 100%;
   height: auto;
   background-color: #070617;
-  position: fixed;
   left: 0;
   bottom: 0;
 
