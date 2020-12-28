@@ -5,6 +5,7 @@ const SectionHome = styled.section`
   background-image: url("/images/fond-etoile.png");
   background-repeat: no-repeat;
   background-size: cover;
+  width: 100%;
 `;
 
 export default SectionHome;
