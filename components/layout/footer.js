@@ -55,20 +55,6 @@ const Footer = (props) => {
               <li>Open ticket</li>
             </ul>
           </div>
-          <div className="col social">
-            <h1>Social</h1>
-            <ul>
-              <li>
-                <img src="https://svgshare.com/i/5fq.svg" />
-              </li>
-              <li>
-                <img src="https://svgshare.com/i/5eA.svg" />
-              </li>
-              <li>
-                <img src="https://svgshare.com/i/5f_.svg" />
-              </li>
-            </ul>
-          </div>
           <div className="clearfix"></div>
         </div>
       </FooterStyle>
