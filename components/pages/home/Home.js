@@ -1,6 +1,6 @@
 import React from "react";
-import Ombre from "../../styles/pages/home/Ombre";
-import SectionHome from "../../styles/pages/home/SectionHome";
+import Ombre from "../../../styles/pages/home/Ombre";
+import SectionHome from "../../../styles/pages/home/SectionHome";
 
 const Home = () => {
   return (
