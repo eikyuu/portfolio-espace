@@ -12,13 +12,13 @@ const Home = () => {
       </Head>
       <SectionHome>
         <Ombre>
-          <h1 className="titleWhite mt-2">
-            DÉVELOPPEUR WEB HTML & CSS REACT - SYMFONY
+          <h1 className="titleWhite mt-3">
+            DÉVELOPPEUR WEB HTML & CSS <br /> REACT - SYMFONY
           </h1>
           <a
             style={{ textDecoration: "none", color: "white" }}
             download="CV Vincent duguet"
-            className="home_button"
+            className="home_button textWhite mt-3 mb-3"
           >
             TÉLÉCHARGER CV
           </a>
@@ -41,6 +41,18 @@ const Home = () => {
               />
             </a>
           </div>
+          <a
+            style={{ textDecoration: "none", color: "white" }}
+            className="link_about textWhite mt-3"
+            href=""
+          >
+            A PROPOS
+          </a>
+          <img
+            src="/images/astronaute.png"
+            alt="icon linkedin"
+            className="img_astronaute mt-2"
+          />
         </Ombre>
       </SectionHome>
     </React.Fragment>

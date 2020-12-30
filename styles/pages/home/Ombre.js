@@ -9,6 +9,7 @@ const Ombre = styled.div`
   background-color: rgba(0, 0, 0, 0.3);
   border: 0.1px solid white;
   align-items: center;
+  overflow: hidden;
 
   .titleWhite {
     text-align: center;
@@ -17,17 +18,26 @@ const Ombre = styled.div`
 
   .home_button {
     border-radius: 4px;
-    border: 1px solid #ffffff;
-    padding: 12px 50px;
+    border: 5px solid #ffffff;
+    padding: 12px 45px;
     font-weight: 600;
   }
 
   .container_logo {
     display: flex;
     img {
-      height: 45px;
+      height: 60px;
       margin-bottom: 4px;
     }
+  }
+
+  .link_about {
+    text-decoration: underline !important;
+    font-weight: 600;
+  }
+
+  .img_astronaute {
+    height: 16rem;
   }
 `;
 

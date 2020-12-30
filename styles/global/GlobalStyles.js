@@ -81,6 +81,13 @@ const GlobalStyles = createGlobalStyle`
 		font-family : bell mt;
 	}
 
+	
+	.textWhite {
+		color : white;
+		font-size : 20px;
+		font-family : bell mt;
+	}
+
 	.m-0 {
 		margin : 0 auto;
 	}
