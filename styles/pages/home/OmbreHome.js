@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const CardOmbre = styled.div`
+const OmbreHome = styled.div`
   display: flex;
   flex-direction: column;
   height: 95vh;
@@ -21,6 +21,15 @@ const CardOmbre = styled.div`
     text-align: center;
     line-height: 45px;
   }
+
+  .container_logo {
+    display: flex;
+  }
+
+  img {
+    height: 45px;
+    margin-bottom: 4px;
+  }
 `;
 
-export default CardOmbre;
+export default OmbreHome;

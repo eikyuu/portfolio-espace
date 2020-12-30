@@ -1,7 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import SectionHome from "../styles/pages/home/SectionHome";
-import CardOmbre from "../styles/pages/home/CardOmbre";
+import OmbreHome from "../styles/pages/home/OmbreHome";
 
 const Home = () => {
   return (
@@ -11,7 +11,7 @@ const Home = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <SectionHome>
-        <CardOmbre>
+        <OmbreHome>
           <h1 className="titleWhite mt-2">
             DÉVELOPPEUR WEB HTML & CSS REACT - SYMFONY
           </h1>
@@ -22,7 +22,26 @@ const Home = () => {
           >
             TÉLÉCHARGER CV
           </a>
-        </CardOmbre>
+          <div className="container_logo mt-2">
+            <a
+              href="https://www.linkedin.com/in/vincent-duguet/"
+              className="mr-2"
+            >
+              <img
+                src="/images/linkedin.png"
+                alt="icon linkedin"
+                className="logo_home"
+              />
+            </a>
+            <a href="https://github.com/eikyuu">
+              <img
+                src="/images/github.png"
+                alt="icon linkedin"
+                className="logo_home"
+              />
+            </a>
+          </div>
+        </OmbreHome>
       </SectionHome>
     </React.Fragment>
   );
