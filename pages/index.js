@@ -1,7 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import SectionHome from "../styles/pages/home/SectionHome";
-import OmbreHome from "../styles/pages/home/OmbreHome";
+import Ombre from "../styles/pages/home/Ombre";
 
 const Home = () => {
   return (
@@ -11,7 +11,7 @@ const Home = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <SectionHome>
-        <OmbreHome>
+        <Ombre>
           <h1 className="titleWhite mt-2">
             DÉVELOPPEUR WEB HTML & CSS REACT - SYMFONY
           </h1>
@@ -41,7 +41,7 @@ const Home = () => {
               />
             </a>
           </div>
-        </OmbreHome>
+        </Ombre>
       </SectionHome>
     </React.Fragment>
   );

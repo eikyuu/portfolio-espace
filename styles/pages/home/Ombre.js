@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const OmbreHome = styled.div`
+const Ombre = styled.div`
   display: flex;
   flex-direction: column;
   height: 95vh;
@@ -10,6 +10,11 @@ const OmbreHome = styled.div`
   border: 0.1px solid white;
   align-items: center;
 
+  .titleWhite {
+    text-align: center;
+    line-height: 45px;
+  }
+
   .home_button {
     border-radius: 4px;
     border: 1px solid #ffffff;
@@ -17,19 +22,13 @@ const OmbreHome = styled.div`
     font-weight: 600;
   }
 
-  h1 {
-    text-align: center;
-    line-height: 45px;
-  }
-
   .container_logo {
     display: flex;
-  }
-
-  img {
-    height: 45px;
-    margin-bottom: 4px;
+    img {
+      height: 45px;
+      margin-bottom: 4px;
+    }
   }
 `;
 
-export default OmbreHome;
+export default Ombre;
