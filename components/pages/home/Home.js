@@ -1,4 +1,6 @@
 import React from "react";
+import TextWhite from "../../../styles/global/TextWhite";
+import TitleWhite from "../../../styles/global/TitleWhite";
 import Ombre from "../../../styles/pages/home/Ombre";
 import Section from "../../../styles/pages/home/Section";
 
@@ -6,9 +8,9 @@ const Home = () => {
   return (
     <Section className="test" image="/images/fond-etoile-mobile.png">
       <Ombre>
-        <h1 className="titleWhite mt-3">
+        <TitleWhite className="titleWhite mt-3">
           DÉVELOPPEUR WEB HTML & CSS <br /> REACT - SYMFONY
-        </h1>
+        </TitleWhite>
         <a
           style={{ textDecoration: "none", color: "white" }}
           download="CV Vincent duguet"
@@ -37,10 +39,10 @@ const Home = () => {
         </div>
         <a
           style={{ textDecoration: "none", color: "white" }}
-          className="link_about textWhite mt-3"
+          className="link_about mt-3"
           href=""
         >
-          A PROPOS
+          <TextWhite>A PROPOS</TextWhite>
         </a>
         <img
           src="/images/astronaute.png"

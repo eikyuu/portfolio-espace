@@ -75,19 +75,6 @@ const GlobalStyles = createGlobalStyle`
 	  border-spacing: 0;
 	}
 
-	.titleWhite {
-		color : white;
-		font-size : 25px;
-		font-family : bell mt;
-	}
-
-	
-	.textWhite {
-		color : white;
-		font-size : 20px;
-		font-family : bell mt;
-	}
-
 	.m-0 {
 		margin : 0 auto;
 	}

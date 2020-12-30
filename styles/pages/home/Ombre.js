@@ -39,6 +39,15 @@ const Ombre = styled.div`
   .img_astronaute {
     height: 16rem;
   }
+
+  .container_multi {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    .multi_verse {
+      height: 40rem;
+    }
+  }
 `;
 
 export default Ombre;
