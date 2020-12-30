@@ -1,10 +1,10 @@
 import React from "react";
 import Ombre from "../../../styles/pages/home/Ombre";
-import SectionHome from "../../../styles/pages/home/SectionHome";
+import Section from "../../../styles/pages/home/Section";
 
 const Home = () => {
   return (
-    <SectionHome>
+    <Section className="test" image="/images/fond-etoile-mobile.png">
       <Ombre>
         <h1 className="titleWhite mt-3">
           DÉVELOPPEUR WEB HTML & CSS <br /> REACT - SYMFONY
@@ -48,7 +48,7 @@ const Home = () => {
           className="img_astronaute mt-2"
         />
       </Ombre>
-    </SectionHome>
+    </Section>
   );
 };
 

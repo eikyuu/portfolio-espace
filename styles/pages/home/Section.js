@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
-const SectionHome = styled.section`
+const Section = styled.section`
   height: 100vh;
-  background-image: url("/images/fond-etoile-mobile.png");
+  background-image: url(${(props) => props.image});
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
 `;
 
-export default SectionHome;
+export default Section;
