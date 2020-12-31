@@ -5,12 +5,12 @@ const Ombre = styled.div`
   display: flex;
   flex-direction: column;
   height: 95vh;
-  width: 90vw;
-  margin: 0 auto;
+  width: ${(props) => props.width};
   background-color: ${(props) => props.backgroundColor};
   border: ${(props) => props.border};
   align-items: center;
   overflow: hidden;
+  z-index: 1;
 
   .titleWhite {
     text-align: center;
@@ -50,7 +50,9 @@ const Ombre = styled.div`
       line-height: 45px;
     }
   }
+
   @media (min-width: ${breakpoints.large}) {
+    margin-top: -40px;
     .img_astronaute {
       height: 37rem;
       width: 100%;

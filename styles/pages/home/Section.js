@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import breakpoints from "../../helpers/breakpoints";
 
 const Section = styled.section`
   height: 100vh;
@@ -6,6 +7,12 @@ const Section = styled.section`
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
+  display: flex;
+  justify-content: center;
+
+  @media (min-width: ${breakpoints.large}) {
+    justify-content: flex-end;
+  }
 `;
 
 export default Section;

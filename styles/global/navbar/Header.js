@@ -7,7 +7,7 @@ const Header = styled.header`
   background-color: black;
   box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
   width: 100%;
-  z-index: 3;
+  position: relative;
 
   a {
     color: white;

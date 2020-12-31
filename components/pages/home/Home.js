@@ -8,14 +8,19 @@ import Section from "../../../styles/pages/home/Section";
 const Home = ({ isMobile }) => {
   return (
     <Section
-      className="test"
       image={
         isMobile ? "/images/fond-etoile-mobile.png" : "/images/fond-etoile.png"
       }
+      justifyContent={isMobile ? "center" : "flex-end"}
     >
       <Ombre
-        border={isMobile ? "0.1px solid rgba(115, 115, 115, 0.3)" : "none"}
-        backgroundColor={isMobile ? "rgba(0, 0, 0, 0.3)" : "none"}
+        border={
+          isMobile
+            ? "0.1px solid rgba(115, 115, 115, 0.3)"
+            : "0.1px solid rgba(115, 115, 115, 0.3)"
+        }
+        backgroundColor={isMobile ? "rgba(0, 0, 0, 0.3)" : "rgba(0, 0, 0, 0.3)"}
+        width={isMobile ? "90vw" : "50rem"}
       >
         <TitleWhite className="titleWhite mt-3">
           DÉVELOPPEUR WEB HTML & CSS <br /> REACT - SYMFONY
