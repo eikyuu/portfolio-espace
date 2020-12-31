@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import breakpoints from "../../helpers/breakpoints";
 
 const Ombre = styled.div`
   display: flex;
@@ -7,20 +8,13 @@ const Ombre = styled.div`
   width: 90vw;
   margin: 0 auto;
   background-color: rgba(0, 0, 0, 0.3);
-  border: 0.1px solid white;
+  border: 0.1px solid rgba(115, 115, 115, 0.3);
   align-items: center;
   overflow: hidden;
 
   .titleWhite {
     text-align: center;
     line-height: 45px;
-  }
-
-  .home_button {
-    border-radius: 4px;
-    border: 5px solid #ffffff;
-    padding: 12px 45px;
-    font-weight: 600;
   }
 
   .container_logo {
@@ -37,7 +31,8 @@ const Ombre = styled.div`
   }
 
   .img_astronaute {
-    height: 16rem;
+    height: 100%;
+    width: 100%;
   }
 
   .container_multi {
@@ -45,7 +40,20 @@ const Ombre = styled.div`
     align-items: center;
     height: 100%;
     .multi_verse {
-      height: 40rem;
+      height: 37rem;
+    }
+  }
+
+  @media (min-width: ${breakpoints.small}) {
+    .titleWhite {
+      text-align: center;
+      line-height: 45px;
+    }
+  }
+  @media (min-width: ${breakpoints.large}) {
+    .img_astronaute {
+      height: 37rem;
+      width: 100%;
     }
   }
 `;
