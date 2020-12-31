@@ -1,25 +1,22 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import TextWhite from "../../../styles/global/TextWhite";
 import TitleWhite from "../../../styles/global/TitleWhite";
 import DownloadButton from "../../../styles/pages/home/DownloadButton";
 import Ombre from "../../../styles/pages/home/Ombre";
 import Section from "../../../styles/pages/home/Section";
-import useWindowSize from "../../../hooks/useWindowSize";
-import * as layout from "../../../constants/layout";
 
-const Home = () => {
-  const windowSize = useWindowSize();
-  const [isMobile, setIsMobile] = useState(false);
-
-  useEffect(() => {
-    if (windowSize)
-      setIsMobile(() => windowSize.width <= layout.SCREEN_SMALL_MAX);
-  }, [windowSize]);
-
-  console.log(isMobile);
+const Home = ({ isMobile }) => {
   return (
-    <Section className="test" image="/images/fond-etoile-mobile.png">
-      <Ombre>
+    <Section
+      className="test"
+      image={
+        isMobile ? "/images/fond-etoile-mobile.png" : "/images/fond-etoile.png"
+      }
+    >
+      <Ombre
+        border={isMobile ? "0.1px solid rgba(115, 115, 115, 0.3)" : "none"}
+        backgroundColor={isMobile ? "rgba(0, 0, 0, 0.3)" : "none"}
+      >
         <TitleWhite className="titleWhite mt-3">
           DÉVELOPPEUR WEB HTML & CSS <br /> REACT - SYMFONY
         </TitleWhite>
@@ -48,11 +45,11 @@ const Home = () => {
         >
           <TextWhite>A PROPOS</TextWhite>
         </a>
-        <img
+        {/* <img
           src="/images/astronaute.png"
           alt="icon linkedin"
           className="img_astronaute mt-2"
-        />
+        /> */}
       </Ombre>
     </Section>
   );

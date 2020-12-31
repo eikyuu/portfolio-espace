@@ -3,10 +3,14 @@ import Ombre from "../../../styles/pages/home/Ombre";
 import Section from "../../../styles/pages/home/Section";
 import TitleWhite from "../../../styles/global/TitleWhite";
 
-const Galaxy = (props) => {
+const Galaxy = ({ isMobile }) => {
+  console.log(isMobile);
   return (
     <Section className="test" image="/images/fond-etoile-planete-mobile.png">
-      <Ombre>
+      <Ombre
+        border={isMobile ? "0.1px solid rgba(115, 115, 115, 0.3)" : "none"}
+        backgroundColor={isMobile ? "rgba(0, 0, 0, 0.3)" : "none"}
+      >
         <TitleWhite className="mt-2">Galaxy Isyade</TitleWhite>
         <div className="container_multi">
           <img

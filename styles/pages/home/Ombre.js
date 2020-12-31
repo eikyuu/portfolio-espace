@@ -7,8 +7,8 @@ const Ombre = styled.div`
   height: 95vh;
   width: 90vw;
   margin: 0 auto;
-  background-color: rgba(0, 0, 0, 0.3);
-  border: 0.1px solid rgba(115, 115, 115, 0.3);
+  background-color: ${(props) => props.backgroundColor};
+  border: ${(props) => props.border};
   align-items: center;
   overflow: hidden;
 
