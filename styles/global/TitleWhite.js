@@ -7,7 +7,7 @@ const TitleWhite = styled.h1`
   font-family: bell mt;
 
   @media (min-width: ${breakpoints.small}) {
-    font-size: 30px;
+    font-size: 45px;
   }
 `;
 

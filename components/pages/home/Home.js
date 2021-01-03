@@ -20,20 +20,19 @@ const Home = ({ isMobile }) => {
             : "0.1px solid rgba(115, 115, 115, 0.3)"
         }
         backgroundColor={isMobile ? "rgba(0, 0, 0, 0.3)" : "rgba(0, 0, 0, 0.3)"}
-        width={isMobile ? "90vw" : "50rem"}
         marginTop={"-40px"}
       >
-        <TitleWhite className="titleWhite mt-3">
+        <TitleWhite className="titleWhite">
           DÉVELOPPEUR WEB HTML & CSS <br /> REACT - SYMFONY
         </TitleWhite>
         <DownloadButton
           style={{ textDecoration: "none", color: "white" }}
           download="CV Vincent duguet"
-          className="home_button textWhite mt-3 mb-3"
+          className="home_button textWhite mt-3"
         >
           TÉLÉCHARGER CV
         </DownloadButton>
-        <div className="container_logo mt-2">
+        <div className="container_logo mt-3">
           <a
             href="https://www.linkedin.com/in/vincent-duguet/"
             className="mr-2"

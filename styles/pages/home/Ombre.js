@@ -3,9 +3,10 @@ import breakpoints from "../../helpers/breakpoints";
 
 const Ombre = styled.div`
   display: flex;
+  justify-content: center;
   flex-direction: column;
   height: 95vh;
-  width: ${(props) => props.width};
+  width: 90vw;
   background-color: ${(props) => props.backgroundColor};
   border: ${(props) => props.border};
   align-items: center;
@@ -45,6 +46,8 @@ const Ombre = styled.div`
   }
 
   @media (min-width: ${breakpoints.small}) {
+    height: 100vh;
+    margin-top: ${(props) => props.marginTop};
     .titleWhite {
       text-align: center;
       line-height: 45px;
@@ -53,6 +56,7 @@ const Ombre = styled.div`
 
   @media (min-width: ${breakpoints.large}) {
     margin-top: ${(props) => props.marginTop};
+    width: 65rem;
     .img_astronaute {
       height: 37rem;
       width: 100%;

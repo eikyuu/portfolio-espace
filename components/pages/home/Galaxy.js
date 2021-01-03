@@ -10,8 +10,7 @@ const Galaxy = ({ isMobile }) => {
       <Ombre
         border={isMobile ? "0.1px solid rgba(115, 115, 115, 0.3)" : "none"}
         backgroundColor={isMobile ? "rgba(0, 0, 0, 0.3)" : "none"}
-        width={isMobile ? "90vw" : "50rem"}
-        marginTop={"0px"}
+        marginTop={"10px"}
       >
         <TitleWhite className="mt-2">Galaxy Isyade</TitleWhite>
         <div className="container_multi">
