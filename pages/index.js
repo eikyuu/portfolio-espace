@@ -11,7 +11,7 @@ const Index = () => {
 
   useEffect(() => {
     if (windowSize)
-      setIsMobile(() => windowSize.width <= layout.SCREEN_SMALL_MAX);
+      setIsMobile(() => windowSize.width <= layout.SCREEN_LARGE_MIN);
   }, [windowSize]);
 
   return (
