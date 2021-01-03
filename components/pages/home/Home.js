@@ -21,6 +21,7 @@ const Home = ({ isMobile }) => {
         }
         backgroundColor={isMobile ? "rgba(0, 0, 0, 0.3)" : "rgba(0, 0, 0, 0.3)"}
         width={isMobile ? "90vw" : "50rem"}
+        marginTop={"-40px"}
       >
         <TitleWhite className="titleWhite mt-3">
           DÉVELOPPEUR WEB HTML & CSS <br /> REACT - SYMFONY

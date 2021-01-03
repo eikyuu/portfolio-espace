@@ -52,7 +52,7 @@ const Ombre = styled.div`
   }
 
   @media (min-width: ${breakpoints.large}) {
-    margin-top: -40px;
+    margin-top: ${(props) => props.marginTop};
     .img_astronaute {
       height: 37rem;
       width: 100%;
