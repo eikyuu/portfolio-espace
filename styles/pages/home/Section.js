@@ -9,6 +9,7 @@ const Section = styled.section`
   width: 100%;
   display: flex;
   justify-content: center;
+  background-position: center;
 
   @media (min-width: ${breakpoints.large}) {
     justify-content: flex-end;
